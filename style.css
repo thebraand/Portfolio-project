@@ -1,14 +1,13 @@
 body {
-  background-color: #f8f9fa;
+  background-color: white;
   font-weight: bold;
-  color: gray;
+  color: black;
   text-align: center;
   -webkit-font-smoothing: antialiased;
   font-family: "Raleway", sans-serif;
 }
 h1 {
   font-size: 56px;
-  margin-top: 100px;
 }
 
 h2 {
@@ -18,7 +17,6 @@ h2 {
 .images {
   max-width: 90%;
 }
-
 
 .case {
   border: 1px;
@@ -48,3 +46,11 @@ h2 {
   filter: blur(0px);
   opacity: 1;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+}
+.hero {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.navbar {
+  background-color: white;
+}
