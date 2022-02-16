@@ -1,3 +1,44 @@
 body {
   background-color: #f8f9fa;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  font-size: 48px;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 36px;
+}
+.box-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+}
+.box {
+  padding: 30px;
+  margin: 2%;
+  background: white;
+  width: 30%;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  transition: 0.2s all;
+}
+.box-wrap:hover .box {
+  filter: blur(3px);
+  opacity: 0.5;
+  transform: scale(0.98);
+  box-shadow: none;
+}
+.box-wrap:hover .box:hover {
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
 }
