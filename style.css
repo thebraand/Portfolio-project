@@ -62,7 +62,7 @@ footer {
 
 @media (max-width: 576px) {
   .hero {
-    font-size: 12px;
+    font-size: 8px;
   }
 }
 @media (max-width: 576px) {
@@ -81,5 +81,15 @@ footer {
 @media (max-width: 576px) {
   .images {
     display: none;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 18px;
   }
 }
