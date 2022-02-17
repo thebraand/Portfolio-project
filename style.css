@@ -22,7 +22,7 @@ h2 {
   border: 1px;
   box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
-  transition: 0.2s all;
+  transition: 0.5s all;
   margin-bottom: 100px;
   margin-left: 45px;
   margin-right: 45px;
@@ -45,7 +45,6 @@ h2 {
   transform: scale(1);
   filter: blur(0px);
   opacity: 1;
-  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
 }
 .hero {
   background-color: aliceblue;
@@ -94,4 +93,19 @@ footer {
     font-size: 18px;
     font-weight: bold;
   }
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.button {
+  margin: 50px;
+}
+.middle-button {
+  margin-top: 150px;
 }
