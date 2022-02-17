@@ -35,13 +35,13 @@ h2 {
 
 .case:hover {
   filter: blur(2px);
-  opacity: 0.5;
+  opacity: 0.3;
   transform: scale(0.98);
   box-shadow: none;
 }
 .rad:hover .case {
   filter: blur(3px);
-  opacity: 0.5;
+  opacity: 0.3;
   transform: scale(0.98);
   box-shadow: none;
 }
