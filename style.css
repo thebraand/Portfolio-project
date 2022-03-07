@@ -123,3 +123,11 @@ footer {
 .aboutparagraph {
   margin-top: 100px;
 }
+.iconics {
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 50px;
+  transition: all 100ms ease-in-out;
+  line-height: 1;
+}
